@@ -23,42 +23,42 @@ Participants will work on their own laptop in order to become independent and ab
 
 #### Morning.
 
-* Introduction 
-* Class introductions, overview, and software installation confirmation 
-* Introduction to MODFLOW
-* Introduction to Python
-* Introduction to FloPy
+* Introduction (Mike)
+* Class introductions, overview, and software installation confirmation. (Mike)
+* Introduction to MODFLOW (Joe) 
+* Introduction to Python (Mike)
+* Introduction to FloPy (Jeremy)
  
 #### Afternoon.
-* Overview of synthetic example models (McDonald Valley, Freyberg, etc.)
-* Building a simple MODFLOW model by hand
-* Building a simple MODFLOW model with FloPy
+* Overview of synthetic example models (McDonald Valley, Freyberg, etc.) (Mike)
+* Building a simple MODFLOW model by hand (Joe)
+* Building a simple MODFLOW model with FloPy (Jeremy)
  
 ### Day 2.
-#### Morning.  Unstructured Grids
-* Vertically consistent grids
-* Completely unstructured grids
-* Grid generation tools
-* XT3D for ghost node corrections
-
-#### Afternoon. Advanced Packages
+#### Morning. Advanced Packages (Joe)
 * Streamflow Routing
 * Unsaturated Zone flow
 * Lakes
 * Multi-aquifer wells
 * MODFLOW6 Water Movers
 
+#### Afternoon. Unstructured Grids - McDonald Valley (Mike)
+* Vertically consistent grids 
+* Completely unstructured grids
+* Grid generation tools (GRIDGEN and Triangle)
+* XT3D for ghost node corrections
+
 ### Day 3.
-#### Morning. Contaminant and heat transport
+#### Morning. Contaminant and heat transport (Joe)
 * Contaminant/heat transport
 * Variable density flow
 
-#### Afternoon. Recharge estimation
+#### Afternoon. Recharge estimation (Mike)
 * Soil-Water Balance (SWB) Code for recharge calculation based on land use and climate
 * Water-use estimation for irrigation using SWB 
 
 ### Day 4.
-#### Morning: Parameter estimation and uncertainty quantification with PEST and pyemu
+#### Morning: Parameter estimation and uncertainty quantification with PEST and pyemu (Jeremy)
 * Uncertainty Quantification through Monte Carlo and closed-form analytical methods
 * Gradient-based parameter estimation
 * Programmatic connections between PEST and MODFLOW
