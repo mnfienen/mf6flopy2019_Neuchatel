@@ -20,6 +20,7 @@ elif "darwin" in platform.platform().lower():
 else:
     os_d = "iwin"
 
+
 def prep_for_deploy():
     for py_dir in py_dirs:
         dest_dir = os.path.split(py_dir)[-1]
@@ -45,7 +46,10 @@ def prep_for_deploy():
             shutil.copy2(os.path.join(src_dir,src_f),os.path.join(dest_dir,dest_f))
 
 
-def prep_template(t_d="template"):
+def prep_template(t_d="template",os_d=os_d):
+
+    if os_d == "iwin":
+        os_d = "win"
     for d in ["pyemu","flopy"]:
         if os.path.exists(os.path.join(t_d,d)):
             shutil.rmtree(os.path.join(t_d,d))
@@ -57,5 +61,5 @@ def prep_template(t_d="template"):
         shutil.copy2(os.path.join("bin",os_d,f),os.path.join(t_d,f))
     
 if __name__ == "__main__":
-    prep_for_deploy()  
-    #prep_template(t_d="temp")  
+    #prep_for_deploy()  
+    prep_template(t_d="temp")  
