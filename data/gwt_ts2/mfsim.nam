@@ -1,0 +1,20 @@
+# Simulation name file for MODFLOW 6 prepared by MF5to6
+
+BEGIN Options
+END Options
+
+BEGIN Timing
+  TDIS6  gwt_ts2.tdis
+END Timing
+
+BEGIN Models
+  GWF6  gwt_ts2.nam  gwt_ts2
+END Models
+
+BEGIN Exchanges
+END Exchanges
+
+BEGIN SOLUTIONGROUP 1
+  MXITER  1
+  IMS6  gwt_ts2.ims  gwt_ts2
+END SOLUTIONGROUP
