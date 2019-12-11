@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export PATH=/home/jovyan/binaries/:$PATH
+cp binder/swb2 binaries/swb2
+chmod +x binaries/swb2
+exec "$@"

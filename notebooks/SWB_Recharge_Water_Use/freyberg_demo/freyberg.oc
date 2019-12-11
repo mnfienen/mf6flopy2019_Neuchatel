@@ -1,0 +1,12 @@
+BEGIN options
+  BUDGET  FILEOUT  freyberg.cbb
+  HEAD  FILEOUT  freyberg.hds
+END options
+
+BEGIN period  1
+  SAVE  head  all
+  SAVE  budget  all
+  PRINT  head  all
+  PRINT  budget  all
+END period  1
+

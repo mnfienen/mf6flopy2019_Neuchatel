@@ -1,0 +1,25 @@
+BEGIN options
+  SAVE_FLOWS
+END options
+
+BEGIN griddata
+  iconvert
+    CONSTANT  1
+  ss
+    CONSTANT  1.00000000E-04
+  sy
+    CONSTANT       0.25000000
+END griddata
+
+BEGIN period  1
+  STEADY-STATE
+END period  1
+
+BEGIN period  3
+  STEADY-STATE
+END period  3
+
+BEGIN period  2
+  TRANSIENT
+END period  2
+
