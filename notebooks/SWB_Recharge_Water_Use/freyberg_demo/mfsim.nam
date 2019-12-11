@@ -1,0 +1,18 @@
+BEGIN options
+END options
+
+BEGIN timing
+  TDIS6  freyberg.tdis
+END timing
+
+BEGIN models
+  gwf6  freyberg.nam  freyberg
+END models
+
+BEGIN exchanges
+END exchanges
+
+BEGIN solutiongroup  1
+  ims6  freyberg.ims  freyberg
+END solutiongroup  1
+
