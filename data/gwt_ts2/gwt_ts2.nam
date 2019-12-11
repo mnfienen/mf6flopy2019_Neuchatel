@@ -1,0 +1,17 @@
+BEGIN Options
+  SAVE_FLOWS
+  LIST       gwt_ts2.lst
+END Options
+
+BEGIN Packages
+  DIS6       gwt_ts2.dis
+  IC6        gwt_ts2.ic
+  NPF6       gwt_ts2.npf
+  STO6       gwt_ts2.sto
+  OC6        gwt_ts2.oc
+  RCH6       gwt_ts2.rch
+  RIV6       gwt_ts2.riv       'RIV-1'
+  CHD6       gwt_ts2.chd       'CHD-1'
+  CHD6       gwt_ts2.lake.chd  'LAK-1'
+END Packages
+
