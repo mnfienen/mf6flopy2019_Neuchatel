@@ -3,4 +3,5 @@ ffmpeg
 gfortran
 gcc
 cmake
-
+netcdf-bin
+libhdf5-serial-dev
