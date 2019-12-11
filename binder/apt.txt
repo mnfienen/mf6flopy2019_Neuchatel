@@ -1,0 +1,8 @@
+vim
+ffmpeg
+gfortran
+gcc
+cmake
+libnetcdf-dev 
+libnetcdff-dev 
+libhdf5-serial-dev 
