@@ -1,2 +1,7 @@
 vim
 ffmpeg
+gfortran
+gcc
+cmake
+netcdf-dev
+hdf5-dev
