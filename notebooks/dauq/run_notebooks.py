@@ -27,7 +27,3 @@ os.system("jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace pe
 os.system("jupyter nbconvert --execute --ExecutePreprocessor.timeout=1800 --inplace pestpp-ies.ipynb")
 os.system("jupyter nbconvert --to pdf pestpp-ies.ipynb")
 os.system("jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace pestpp-ies.ipynb")
-
-os.system("jupyter nbconvert --execute --ExecutePreprocessor.timeout=1800 --inplace pestpp-opt.ipynb")
-os.system("jupyter nbconvert --to pdf pestpp-opt.ipynb")
-os.system("jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace pestpp_opt.ipynb")
