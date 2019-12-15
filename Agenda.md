@@ -6,7 +6,7 @@
 US Geological Survey
 
 ## December 16th to 19th  2019
-###Centre for Hydrogeology and Geothermics
+### Centre for Hydrogeology and Geothermics
 ### University of Neuchâtel, Switzerland
 
 The aim of this course is to enable the participants to work efficiently with groundwater models using MODFLOW and FloPy (a python interface).
