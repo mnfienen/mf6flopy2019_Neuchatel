@@ -4,3 +4,7 @@ curl -L -o linux.zip https://github.com/MODFLOW-USGS/executables/releases/downlo
 mkdir binaries
 unzip linux.zip -d binaries
 rm linux.zip
+
+curl -L -o linux.zip https://github.com/mnfienen-usgs/mf6flopy2019_Neuchatel/releases/download/1.0/linux.zip?raw=true
+unzip linux.zip -d binaries
+rm linux.zip

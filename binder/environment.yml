@@ -19,7 +19,7 @@ dependencies:
   - rasterstats
   - pyshp
   - hydrofunctions
-  - jupyter 
+  - jupyter
   - notebook
   - jupyterlab
   - ipykernel
@@ -28,8 +28,8 @@ dependencies:
   - pip
   - imageio
   - openpyxl
+  - flopy
   - pip:
-    - flopy
     - modflow-export
     - julian
     - imageio_ffmpeg
