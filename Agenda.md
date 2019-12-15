@@ -30,7 +30,7 @@ Participants will work on their own laptop in order to become independent and ab
 * Introduction to FloPy (Jeremy)
  
 #### Afternoon.
-* Overview of synthetic example models (McDonald Valley, Freyberg, etc.) (Mike)
+
 * Building a simple MODFLOW model by hand (Joe)
 * Building a simple MODFLOW model with FloPy (Jeremy)
  
@@ -42,7 +42,7 @@ Participants will work on their own laptop in order to become independent and ab
 * Multi-aquifer wells
 * MODFLOW6 Water Movers
 
-#### Afternoon. Unstructured Grids - McDonald Valley (Mike)
+#### Afternoon. Unstructured Grids - Theis and Others (Mike)
 * Vertically consistent grids 
 * Completely unstructured grids
 * Grid generation tools (GRIDGEN and Triangle)
@@ -61,7 +61,7 @@ Participants will work on their own laptop in order to become independent and ab
 #### Morning: Parameter estimation and uncertainty quantification with PEST and pyemu (Jeremy)
 * Uncertainty Quantification through Monte Carlo and closed-form analytical methods
 * Gradient-based parameter estimation
-* Programmatic connections between PEST and MODFLOW
+* Programmatic connections between PEST and MODFLOW `pyemu`
 * Iterative Ensemble Smoother
  
 #### Afternoon. Optional Advanced Topics:
@@ -71,5 +71,7 @@ Participants will work on their own laptop in order to become independent and ab
 * MT3D/MT3D-USGS/SEAWAT
 * Karstic Conduits
 * Advanced Python tools (Pandas, date-handling, visualization)
+* Data Worth
+* Optimization under uncertainty
 
 #### Wrap-up
