@@ -28,8 +28,8 @@ dependencies:
   - pip
   - openpyxl
   - flopy
+  - imageio
   - pip:
-    - imageio
     - modflow-export
     - julian
     - imageio_ffmpeg
