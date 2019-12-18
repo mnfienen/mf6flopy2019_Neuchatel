@@ -26,9 +26,9 @@ dependencies:
   - netcdf4
   - pytest
   - pip
-  - imageio
   - openpyxl
   - flopy
+  - imageio
   - pip:
     - modflow-export
     - julian
