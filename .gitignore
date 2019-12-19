@@ -6,5 +6,6 @@ advpack/
 notebooks/simplemodflow6/flopy/
 notebooks/transport/temp/
 notebooks/transport-additional/temp/
+notebooks/additional_topics/temp/
 
 working/
