@@ -13,6 +13,8 @@ We've added a few topics we weren't able to cover in the class this week. Please
 
 + A class project building a model from datasets is in the notebook *ClassModel-completed.ipynb*
 
++ One application of automating model runs is to set up a model, observe the simulated flow in a stream, and then stress the model with wells in all model cells. This can return a map of depletion potential (e.g. how much baseflow is reduced due to pumping at each area of the model). This is a metric of vulnerability. The notebook *Automating-Model-Runs-completed.ipynb* is a demonstration of how to set this up. Note that this setup indicates how other types of automation could work like evaluating a suite of realizations of hydraulic conductivity, for example.
+
 ##### ***In the DataAnalysisUsingPandas folder***
 There are three notebooks using `pandas` for data analysis (these are not related to MODFLOW)
 
